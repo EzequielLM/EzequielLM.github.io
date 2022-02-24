@@ -3,15 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <title>Ezequiel Machado</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+        
+        header{
+            display: flex;
+            content: 200px;
+            background-color: darkgrey;
+            padding: 20px;
+            justify-content: space-around;
+            border-radius: 15px ;
+        }
+
+        body{
+            background-color: black;
+            color: white;
+            font-family: 'Indie Flower', cursive;
+        }
+        h1{
+            font-family: 'Redressed', cursive;        
+        }
+
+        #nome{
+            font-size: 45px;
+            padding-top:10px;
+        }
+
+        #menu{
+          font-size: 20pt;
+
+        }
+
+        #descricao{
+            display:flex;
+            padding: 10px;
+            font-size: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 2px 2px;
+
+        }
+
+        #foto{
+            
+            position: relative;
+            margin-left: 150px;
+            border-radius: 100%;
+            
+        }
+
+    </style>
 </head>
 <body>
-    <h1 id="nome">Ezequiel Lopes Machado</h1>
+    <header id="cabecalho">
+        <h1 id="nome">Ezequiel Lopes Machado - Turma 21 - Tribo B</h1>
 
-    <img id="foto" src="./images/perfil.jpeg" width="330" height="400" alt="Foto de Perfil de Ezequiel Machado">
+        <ul id="menu">
+            <li><a href="./images/perfil.jpeg" target="_blank">Foto</a></li>
+            <li><a href="#descricao">Descrição</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+        </ul>
+
+        <img id="foto" src="./images/perfil.jpeg" width="200" alt="Foto de Perfil de Ezequiel Machado">
+        </header>
 
     <p id="descricao">Olá, me chamo Ezequiel Machado, moro em uma cidade pequena no Rio Grande do Sul chamada Capão do Leão.<br>Gosto muito de jogos de computador, e gosto de passar algumas horas jogando com os amigos.</p>
 
-    
-
+    <h2 id="skills">Habilidades</h2>
+    <ul>
+        <li><em>HTML5</em></li>
+        <li><em>CSS</em></li>
+        <li><em>C</em></li>
+        <li><em>Python</em></li>
+    </ul>
 </body>
 </html>
